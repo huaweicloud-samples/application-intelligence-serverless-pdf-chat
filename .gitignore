@@ -1,0 +1,29 @@
+# Terraform
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/terraform.tfplan
+infra/*.tfrc
+infra/terraform.tfvars
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Internal tooling (not published)
+.codeartsdoer/
+
+# Frontend
+src/frontend/node_modules/
+src/frontend/dist/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# others/ 是内部过程产物，不随产物上传 GitHub（本地保留，仅忽略提交）
+others/
