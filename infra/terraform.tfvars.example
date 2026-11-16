@@ -1,0 +1,14 @@
+# Copy this file to terraform.tfvars and fill in the secrets.
+# terraform.tfvars is gitignored — never commit real credentials.
+
+# Required secrets
+geminidb_password = "REPLACE_WITH_STRONG_PASSWORD"
+maas_api_key      = "REPLACE_WITH_MAAS_API_KEY"
+
+# Optional overrides (defaults shown)
+# region                     = "cn-north-4"
+# obs_bucket_name            = "app-intel-serverless-pdf-chat"
+# geminidb_spec_code         = "geminidb.dynamodb.large.4"
+# geminidb_node_num          = 3
+# apig_public                = true
+# apig_available_zones       = ["cn-north-4a"]
